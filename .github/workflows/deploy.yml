@@ -1,0 +1,38 @@
+name: Publish docs version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Mod version to publish (e.g. 1.9.0)"
+        required: true
+      set_latest:
+        description: "Also point 'latest' at this version"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install mkdocs-material mike
+      - name: Configure git
+        run: |
+          git config user.name "DevoidAxis"
+          git config user.email "k2oxtra@cipherhq.dev"
+      - name: Deploy version
+        run: |
+          if [ "${{ inputs.set_latest }}" = "true" ]; then
+            mike deploy --push --update-aliases "${{ inputs.version }}" latest
+          else
+            mike deploy --push "${{ inputs.version }}"
+          fi
