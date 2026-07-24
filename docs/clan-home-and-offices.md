@@ -28,6 +28,10 @@ seat) happen there.
 Office bonuses scale with the holder's skill (0.70x to 1.30x, capped at 200
 skill), so who you appoint matters.
 
+Holders also **grow their office's primary skill** every day they serve, at
+the same pace and ceiling as commission career growth - the office teaches its
+holder. Suspended offices teach nothing. Toggle under Office Systems.
+
 ## Who can serve
 
 Candidates are your adult **companions and clan family** who are free to serve.

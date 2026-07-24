@@ -17,6 +17,10 @@ assembly is picked automatically. It is save-safe to add mid-campaign, and a
 
 ## Your first hour with the mod
 
+**Recruit as you walk** - talking to a villager or townsfolk offers "Enter my
+service": the person you addressed joins your household as a companion, for a
+coin cost (your Muster Herald discounts it later).
+
 **Before you own land** - from any town or castle you can stand openly in,
 open **"See to your retinue"**. There you can ennoble veterans who have earned
 enough battle merit and grant commissions to your companions. See

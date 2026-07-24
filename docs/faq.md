@@ -30,6 +30,12 @@ A revoked commission reclaims the invested skill package (everything earned in
 service is kept). That is the deal the clan makes: the investment follows the
 office, the experience follows the person.
 
+## Do I need to restart after changing settings?
+
+No. Settings apply in-session; the office bonus caches refresh within the
+in-game hour. The one exception is the finance model mode, which takes effect
+on the next campaign load (its hint says so).
+
 ## Text shows in English in my language
 
 Untranslated keys fall back to English. Corrections and new translations are
