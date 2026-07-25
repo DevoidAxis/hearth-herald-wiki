@@ -13,10 +13,20 @@ elevation and you can promote up to the per-review cap (default 3, up to 5) in
 one sitting. Promoting draws down the merit and carries the remainder.
 
 **The skill build (optional, off by default)**: with "Skill build at promotion"
-enabled, ennobling opens one or two rounds of skill picks. Each round you pick
-up to four skills; every picked skill gains the round's amount (round 1 the
-full base, round 2 half). Kills earned beyond the threshold add to the budget.
-Picking the same skill across rounds stacks.
+enabled, ennobling opens **Shape the Officer**: "Throughout their battles, this
+soldier was known as..." - pick a backstory and the build is done in one click.
+
+- **Marshal, Castellan, or Caravan Master** invests that career's defining
+  skills automatically, most important first, every round to the same skills
+  (so a small skills-per-round setting still lands the ones that matter).
+  Hover a card for the full flavor and the skills it trains.
+- **"...something else"** opens the manual rounds: each round you pick up to
+  four skills; every picked skill gains the round's amount (round 1 the full
+  base, round 2 half). Picking the same skill across rounds stacks.
+
+Kills earned beyond the threshold add to the budget either way. A chosen
+backstory also carries forward: the commission offer that follows leads with
+that track marked **"their calling"**.
 
 ## Commissions: careers for the people you raised
 

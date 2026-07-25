@@ -44,3 +44,17 @@ against your companion limit.
 If a stationed herald later picks up a conflicting duty, the office pauses with
 the reason shown on screen and restores itself within a day of the conflict
 ending.
+
+## The Clan Ledger
+
+The Master Herald keeps the clan's chronicle. **Consult the Ledger** (under
+Administrative actions, works remotely) opens the campaign's history newest
+first, twelve entries to a page: the realm's record - wars, deaths, marriages,
+settlements changing hands, the same feed the Encyclopedia reads - merged with
+your clan's own milestones, which the herald records from the day the mod is
+installed: ennoblements, chosen backstories, commissions taken and laid down.
+
+The realm's side reaches back through your whole save at the game's own
+retention (deaths are kept forever, marriages for decades, minor events about
+a week). Hover any entry for its date and full text; select the page rows to
+turn pages.
