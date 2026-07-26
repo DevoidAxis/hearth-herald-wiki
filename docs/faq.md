@@ -47,3 +47,11 @@ Hearth & Herald wraps its systems in fail-soft guards, so a hard crash is
 usually another mod or a load-order issue. Check
 `Documents/Mount and Blade II Bannerlord/Configs/ModLogs/DevoidAxis.HearthHerald.log`
 and post it (Nexus Posts or Discord) with your game version and mod list.
+
+## Where do I report a bug properly?
+
+The public tracker:
+[github.com/DevoidAxis/hearth-herald-issues](https://github.com/DevoidAxis/hearth-herald-issues).
+It has bug and feature templates, takes screenshots and log attachments, and
+keeps the follow-up in one thread. Quick questions still work fine on the
+Nexus Posts tab or Discord.
