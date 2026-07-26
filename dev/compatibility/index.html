@@ -488,6 +488,39 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-the-mod-stays-out-of-the-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the mod stays out of the way
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-mod-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Known-mod behavior
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distinguished-service-specifically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distinguished Service, specifically
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#load-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -598,6 +631,39 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-the-mod-stays-out-of-the-way" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the mod stays out of the way
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-mod-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Known-mod behavior
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distinguished-service-specifically" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distinguished Service, specifically
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#load-order" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -646,41 +712,75 @@
 
 <h1 id="compatibility">Compatibility<a class="headerlink" href="#compatibility" title="Permanent link">&para;</a></h1>
 <p>Hearth &amp; Herald detects overlapping mods and defers where another mod owns a
-system - fail-soft everywhere: skip, never crash.</p>
+system. The rule everywhere is fail-soft: skip, never crash.</p>
+<h2 id="how-the-mod-stays-out-of-the-way">How the mod stays out of the way<a class="headerlink" href="#how-the-mod-stays-out-of-the-way" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Clan-scoped by design.</strong> Everything HH does is about <em>your</em> clan: your
+  offices, your companions, your careers. It does not rewrite kingdom AI,
+  economy models, or other clans' behavior, which is why it sits comfortably
+  next to overhauls.</li>
+<li><strong>Buff-only.</strong> Heralds and commissions never move heroes around, never
+  auto-assign governors or parties. Nothing fights another mod for control of
+  a hero.</li>
+<li><strong>Defers on contact.</strong> Where a well-known mod owns a system, HH detects it
+  and backs its own effect off rather than stacking or fighting.</li>
+</ul>
+<h2 id="known-mod-behavior">Known-mod behavior<a class="headerlink" href="#known-mod-behavior" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Mod</th>
-<th>Behavior</th>
+<th>What happens with both installed</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>TrueLimits</td>
-<td>With the Limits suite on Auto, HH defers all limit changes wholesale to TrueLimits.</td>
+<td><strong>Distinguished Service</strong></td>
+<td>Fully independent - see below.</td>
 </tr>
 <tr>
-<td>Improved Garrisons</td>
-<td>Garrison-touching effects back off when IG owns them; the Exchequer income decorator survives IG's finance model.</td>
+<td><strong>TrueLimits</strong> (Limits suite)</td>
+<td>With the Limits suite on Auto, HH defers all companion/party limit changes wholesale to TrueLimits. Commission caps read your <em>effective</em> limit, so they scale with whatever TrueLimits grants.</td>
 </tr>
 <tr>
-<td>Diplomacy / Diplomacy Fixes</td>
+<td><strong>Improved Garrisons</strong></td>
+<td>Garrison-touching herald effects back off where IG owns them; the Exchequer income decorator is written to survive IG's finance model.</td>
+</tr>
+<tr>
+<td><strong>Diplomacy / Diplomacy Fixes</strong></td>
 <td>A daily safety net keeps the Clan Home correct through fief swaps and brokered peace deals.</td>
 </tr>
 <tr>
-<td>Banner Kings</td>
-<td>Economy effects back off.</td>
+<td><strong>Banner Kings</strong></td>
+<td>HH economy effects back off.</td>
 </tr>
 <tr>
-<td>Distinguished Service</td>
-<td>No interaction at all - HH holds zero references to DS. Run both if you like; HH's ennoblement (banked multi-promotion + skill build) covers the same ground if you retire DS.</td>
+<td><strong>Marriage / romance overhauls</strong></td>
+<td>HH does not override marriage suitability. The campaign's active marriage model decides, so overhaul rules apply cleanly.</td>
 </tr>
 <tr>
-<td>Marriage / romance overhauls</td>
-<td>HH does not override marriage suitability; the campaign's active marriage model decides, so overhaul rules apply cleanly.</td>
+<td><strong>Party AI / order mods</strong> (Party AI Controls etc.)</td>
+<td>No overlap: commissions buff skills and titles, they never issue party orders.</td>
 </tr>
 </tbody>
 </table>
+<h2 id="distinguished-service-specifically">Distinguished Service, specifically<a class="headerlink" href="#distinguished-service-specifically" title="Permanent link">&para;</a></h2>
+<p>Short version: <strong>DS can keep running exactly as before - you lose nothing by
+installing HH next to it.</strong></p>
+<ul>
+<li>DS promotes from its own after-battle honors flow. HH ennobles from <strong>banked
+  battle merit</strong> (kills per troop type) through the review menu. Different
+  triggers, different bookkeeping - the two never race for the same soldier.</li>
+<li>HH's commissions are <strong>decoupled from HH's own ennoblement</strong>: any companion
+  can take a commission, whether they came from HH's review, from DS, from
+  taverns, or from another mod. A DS-promoted veteran can become your
+  Castellan.</li>
+<li>HH holds <strong>zero code references to DS</strong> - no patches, no detection, no
+  shared state.</li>
+</ul>
+<p>If you ever retire DS, HH's ennoblement (banked multi-promotion, backstory
+presets, skill build) covers the same ground; until then, run both without
+ceremony.</p>
 <h2 id="load-order">Load order<a class="headerlink" href="#load-order" title="Permanent link">&para;</a></h2>
 <p>The standard BUTR stack (Harmony, ButterLib, UIExtenderEx, MCM) before the
 native modules, Hearth &amp; Herald after. Launch through BLSE.</p>
