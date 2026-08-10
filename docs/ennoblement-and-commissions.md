@@ -30,13 +30,21 @@ that track marked **"their calling"**.
 
 ## Commissions: careers for the people you raised
 
-Commission a companion into one of three tracks:
+Commission a companion into one of four tracks:
 
 | Track | Skills invested | Actively serving means |
 |---|---|---|
 | Marshal | party-leader skills + Tactics, Leadership | leading their own party |
 | Castellan | governing skills | governing a settlement |
 | Caravan Master | trade-road skills | running a caravan |
+| Thegn | the full combat package + Tactics, Leadership | fighting in a party, yours or their own |
+
+The **Thegn** (added in 1.11.0) is the martial commission for the companions
+who fight rather than administer: a field champion, deliberately without the
+map and logistics skills that stay the Marshal's domain. Perks are role-picked
+on appointment and reclaimed cleanly on revoke. The governor and party-leader
+pickers do not offer a Thegn, so your champion is never mistaken for an
+administrator.
 
 At appointment the clan invests a flat package (default +75 per track skill)
 and the companion takes the title in their name. While they hold the
@@ -45,6 +53,11 @@ the job. Growth stops at a ceiling (default 275).
 
 **Revoking** reclaims the invested package but keeps everything earned in
 service; titles are stripped and perks re-picked if any orphan.
+
+Herald offices carry titles the same way since 1.11.0: a seated herald is
+named Exchequer Herald, Watch Herald, Muster Herald, or Arms Herald for as
+long as they serve. One hero holds one title: a commissioned companion who
+takes a herald office trades the commission for it.
 
 **Caps** are percentage shares of your effective companion limit (defaults
 derived from a 2 Marshal / 4 Castellan / 3 Caravan Master mix at clan tier 6),

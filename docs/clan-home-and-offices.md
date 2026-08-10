@@ -32,6 +32,11 @@ Holders also **grow their office's primary skill** every day they serve, at
 the same pace and ceiling as commission career growth - the office teaches its
 holder. Suspended offices teach nothing. Toggle under Office Systems.
 
+Since 1.11.0 a seated herald **wears the office in their name**: Exchequer
+Herald, Watch Herald, Muster Herald, Arms Herald. Your officers read at a
+glance even in a clan full of same-named companions, and the title is stripped
+cleanly when they leave office. The Master keeps their own name.
+
 ## Who can serve
 
 Candidates are your adult **companions and clan family** who are free to serve.
@@ -43,7 +48,10 @@ against your companion limit.
 
 If a stationed herald later picks up a conflicting duty, the office pauses with
 the reason shown on screen and restores itself within a day of the conflict
-ending.
+ending. Since 1.11.0 this can barely happen by accident: the governor,
+party-leader, and caravan pickers no longer offer a seated herald at all. And
+if the Exchequer's office does lapse while fiefs are set to auto-build, a daily
+notice tells you construction is paused and why, instead of failing silently.
 
 ## The Clan Ledger
 

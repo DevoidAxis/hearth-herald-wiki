@@ -1,7 +1,7 @@
 # Settings Reference
 
 Every office is toggleable and every number is tunable, in Mod Options
-(Mod Configuration Menu) under **Hearth & Herald**. Fourteen groups:
+(Mod Configuration Menu) under **Hearth & Herald**. Fifteen groups:
 
 | Group | What lives there |
 |---|---|
@@ -18,6 +18,7 @@ Every office is toggleable and every number is tunable, in Mod Options
 | Family & Clan Continuity | Romance, marriage, mentoring, pregnancy and heirs, household members |
 | Ennoblement | Kill threshold, skill inheritance, tier scaling, promotions per review, the skill build |
 | Clan Commissions | Skill package, growth rates, ceiling, per-track cap shares |
+| Courtesies & Relations | Talking sessions, gifts, messenger courtesies, and presence relations (governor and stationed-kin standing: station days, daily gains, per-notable cap) |
 | Herald Access | Field clan building toggle and minimum tier |
 
 !!! note
