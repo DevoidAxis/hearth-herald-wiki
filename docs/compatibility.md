@@ -53,5 +53,5 @@ native modules, Hearth & Herald after. Launch through BLSE.
 
 ## Game versions
 
-One download covers 1.2.9 and 1.3.14 through 1.4.1; the loader picks the right
+One download covers every game version from 1.2.8 through 1.4.7; the loader picks the right
 assembly for your game version automatically.
