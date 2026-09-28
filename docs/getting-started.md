@@ -11,7 +11,7 @@
 4. Load order: Harmony first, then ButterLib, UIExtenderEx, MCM, the native
    modules, then Hearth & Herald.
 
-The mod supports game versions 1.2.9 and 1.3.14 through 1.4.1; the right
+The mod supports game versions 1.2.8 through 1.4.8; the right
 assembly is picked automatically. It is save-safe to add mid-campaign, and a
 "Prepare save for uninstall" button in Mod Options makes removal save-safe too.
 
