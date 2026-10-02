@@ -6,7 +6,7 @@ Every office is toggleable and every number is tunable, in Mod Options
 | Group | What lives there |
 |---|---|
 | General | Master kill-switch, bonus strength presets, compatibility mode, remote tier gating |
-| Office Systems | Per-office enable toggles (Exchequer, Watch, Muster, Arms, Master advanced) |
+| Office Systems | Per-office enable toggles (Exchequer, Watch, Muster, Arms, Master advanced); whether heralds attend your seat |
 | Balance: Multipliers | Income, recruit, elite-recruit, party XP, garrison XP, watch warning tuning |
 | Balance: Cooldowns | Clan Home relocation, master actions, remote access, intrigue |
 | Compatibility | Banner Kings / Improved Garrisons / Diplomacy behavior, finance model mode |
@@ -16,7 +16,7 @@ Every office is toggleable and every number is tunable, in Mod Options
 | Limits | Party size, companions (the single owner of companion-limit headroom), prisoners; Auto defers to TrueLimits |
 | Clan Council | Council report cadence and content |
 | Family & Clan Continuity | Romance, marriage, mentoring, pregnancy and heirs, household members |
-| Ennoblement | Kill threshold, skill inheritance, tier scaling, promotions per review, the skill build |
+| Ennoblement | Kill threshold, skill inheritance, tier scaling, promotions per review (1-50 since 1.12.0), the skill build |
 | Clan Commissions | Skill package, growth rates, ceiling, per-track cap shares |
 | Courtesies & Relations | Talking sessions, gifts, messenger courtesies, and presence relations (governor and stationed-kin standing: station days, daily gains, per-notable cap) |
 | Herald Access | Field clan building toggle and minimum tier |

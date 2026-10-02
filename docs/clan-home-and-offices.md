@@ -37,6 +37,15 @@ Herald, Watch Herald, Muster Herald, Arms Herald. Your officers read at a
 glance even in a clan full of same-named companions, and the title is stripped
 cleanly when they leave office. The Master keeps their own name.
 
+**The herald bench (since 1.12.0)**: seated heralds now stand in the lord's
+hall of your clan home alongside the Master Herald, instead of staying a line
+item on a menu. The Master keeps its curated spot by the throne; the rest
+stand about the hall. Two heroes are never placed there: the clan leader
+(while you are still the stand-in Master, a second copy of you would appear)
+and anyone currently riding in your party. A hero holding two offices appears once. Controlled by "Heralds
+attend your seat" under Office Systems (on by default); turning it off
+restores Master-only.
+
 ## Who can serve
 
 Candidates are your adult **companions and clan family** who are free to serve.

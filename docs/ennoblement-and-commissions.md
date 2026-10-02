@@ -9,8 +9,29 @@ companion who keeps the troop's culture, level, skills, and battle gear.
 
 **Banked elevations**: over-killing a type banks several promotions - 165 kills
 at a 50 threshold is three veterans ready. The review shows one row per banked
-elevation and you can promote up to the per-review cap (default 3, up to 5) in
-one sitting. Promoting draws down the merit and carries the remainder.
+elevation and you can promote up to the per-review cap (default 3, tunable up
+to 50 since 1.12.0) in one sitting. Promoting draws down the merit and carries
+the remainder.
+
+**Bulk intake (since 1.12.0)**: pick more than one veteran and the review asks
+how to shape the intake.
+
+- **Shape them alike** gives the whole group one commission, and one calling
+  too when Skill build at promotion is on (off by default): two decisions
+  instead of two per head. Each veteran still draws from their
+  own pool, so a preset applied to twenty does not flatten them into identical
+  officers. The commission cap is shown before you choose, not discovered
+  after: each track reports what it already holds and how many of this
+  selection would still fit. Granting stops at the cap and says how many took
+  it up; whoever does not fit stays an ordinary companion, commissionable
+  later through your Master Herald.
+- **Shape each one** keeps the familiar per-veteran walk, in turn. It is still
+  the only way to hand-pick skills for an individual, and it is what you fall
+  back to if you X out of the shaping question instead.
+
+Custom is deliberately absent from the bulk screen: its pickers read one
+hero's improvable skills, so there is no honest way to answer them once for
+everybody.
 
 **The skill build (optional, off by default)**: with "Skill build at promotion"
 enabled, ennobling opens **Shape the Officer**: "Throughout their battles, this
@@ -53,6 +74,13 @@ the job. Growth stops at a ceiling (default 275).
 
 **Revoking** reclaims the invested package but keeps everything earned in
 service; titles are stripped and perks re-picked if any orphan.
+
+**Naming and recalling several at once (since 1.12.0)**: both commissioning
+and revoking now take more than one companion in a single pick. When the
+split is worth asking about, a scope question comes first: riding with you,
+elsewhere, or all of them. A clan where everyone falls on one side never sees
+the extra screen, and a single pick still goes straight to the richer
+per-hero picker.
 
 Herald offices carry titles the same way since 1.11.0: a seated herald is
 named Exchequer Herald, Watch Herald, Muster Herald, or Arms Herald for as
